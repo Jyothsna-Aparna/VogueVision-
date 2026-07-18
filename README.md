@@ -27,11 +27,10 @@ VogueVision demonstrates how AI/ML can be applied across the fashion retail valu
 [H&M Personalized Fashion Recommendations](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations) — includes 100K+ articles, customer data, and 31M+ transaction records.
 
 ## 📈 Results
-*(Update this section after running the notebook)*
-- Price Prediction MAE: `TODO`
-- Demand Forecast MAE: `TODO`
-- Image Classification Accuracy: `TODO`
-
+- Price Prediction: MAE = 0.0104, R² Score = 0.488
+- Demand Forecasting MAE: 16,195.92 units (Garment Upper body category)
+- Recommendation System: Successfully generates relevant similar-product suggestions based on content similarity
+- Note: Image classification module (Module 3) requires the full image dataset (~25GB), which was outside Colab's free-tier scope for this project — included as a future improvement
 ## 🚀 How to Run
 1. Open `VogueVision.ipynb` in Google Colab
 2. Get a Kaggle API key (`kaggle.json`) from your Kaggle account settings
